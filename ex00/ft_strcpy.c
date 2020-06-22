@@ -6,11 +6,10 @@
 /*   By: tbird <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/22 11:40:56 by tbird             #+#    #+#             */
-/*   Updated: 2020/06/22 15:40:54 by tbird            ###   ########.fr       */
+/*   Updated: 2020/06/22 15:42:34 by tbird            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include<string.h>
-#include<stdio.h>
+
 
 char *ft_strcpy(char *dest, char *src)
 {
