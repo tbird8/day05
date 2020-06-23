@@ -6,33 +6,23 @@
 /*   By: tbird <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/22 15:43:06 by tbird             #+#    #+#             */
-/*   Updated: 2020/06/22 16:21:47 by tbird            ###   ########.fr       */
+/*   Updated: 2020/06/23 11:34:38 by tbird            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<string.h>
-#include<stdio.h>
+
 
 char *ft_strncpy(char *dest, char *src, unsigned int n)
 {
-	int i;
-	i =0;
-	while (src [i] != '\0'){
+unsigned int i;
+	i= 0;
+	while (src [i] != '\0' &&  i < n ){
+
 		dest[i] = src [i];
-		i+1;
+		i++;
 	}
-	dest [i] = '\0';;
-	return (dest);
-	ft_strncpy;
+	dest [i] = '\0';
+	return (dest);	
 }	
 
-int main(void)
-{ 
-	char str1[7] = "buffer";
-	char str2[7];
-	strncpy(str2, str1, 5);
-	printf("%s\n", strcpy(str2, str1));
-	printf("%s\n", str2);
-			return (0);
-			}
 
