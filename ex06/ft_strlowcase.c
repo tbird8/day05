@@ -6,12 +6,12 @@
 /*   By: tbird <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/24 13:30:42 by tbird             #+#    #+#             */
-/*   Updated: 2020/06/24 13:41:03 by tbird            ###   ########.fr       */
+/*   Updated: 2020/06/24 13:42:51 by tbird            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<string.h>
-#include<stdio.h>
+
+
 
 char  *ft_strlowcase(char *str)
 
@@ -26,10 +26,4 @@ char  *ft_strlowcase(char *str)
 	}
 	return(0);
 }
-int main()
-{
-	char str[10] = "GOODBYE";
 
-	printf("%s\n", ft_strlowcase(str));
-	return(0);
-}
