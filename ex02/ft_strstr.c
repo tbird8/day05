@@ -6,12 +6,11 @@
 /*   By: tbird <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/23 11:43:15 by tbird             #+#    #+#             */
-/*   Updated: 2020/06/23 15:46:55 by tbird            ###   ########.fr       */
+/*   Updated: 2020/06/24 13:15:17 by tbird            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<string.h>
-#include<stdio.h>
+
 
 char  *ft_strstr(char *str, char *to_find)
 { 
