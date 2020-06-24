@@ -6,12 +6,11 @@
 /*   By: tbird <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/24 11:35:47 by tbird             #+#    #+#             */
-/*   Updated: 2020/06/24 12:59:52 by tbird            ###   ########.fr       */
+/*   Updated: 2020/06/24 13:12:36 by tbird            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<string.h>
-#include<stdio.h>
+
 
 char  *ft_strupcase(char *str)
 {
